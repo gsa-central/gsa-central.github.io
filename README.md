@@ -1,4 +1,4 @@
-![MoraLab](/MORALAB_Banner.png)
+![MoraLab](/picture/MORALAB_Banner.png)
 
 # Welcome to GSA Central
 
@@ -12,4 +12,4 @@ Check our introductory papers.
 
 We are still building this site! Come back soon!
 
-![GMU](/gmu1.GIF)
+![GMU](/picture/gmu1.GIF)

@@ -25,17 +25,29 @@ div.scrollmenu a:hover {
 </head>
 
 <body>
+<!--A function that can enlarge picture -->
+<script>
+function bigImg(x)
+{
+	x.style.width="90%";
+}
 
+function normalImg(x)
+{
+	x.style.width="80%";
+}
+</script>
 <center>
   <p>
   <!--#responsive-image { width: 80%; height: auto; } --> 
-  <img src="GSACENTRAL_Banner.png" alt="GSA Central" id="responsive-image" width=80% />
+  <img src="picture/GSACENTRAL_Banner.png" alt="GSA Central" id="responsive-image" width=80% />
   </p>
 
 <div class="scrollmenu">
   <a href="https://gsa-central.github.io/index.html">Home</a>
   <a href="https://gsa-central.github.io/slides.html">Educational Material</a>
   <a href="https://gsa-central.github.io/index.html">Projects</a>
+  <a href="Our_team.html">About Us</a>
 </div>
 
   <H1>Welcome to GSA Central</H1>
@@ -44,9 +56,18 @@ div.scrollmenu a:hover {
   <p>
   <table style="width:80%">
   <tr>
-  <th><img src="wikip.png" width=80% /></th>
-  <th><img src="oxid_phos.png" width=80% /></th>
-  <th><img src="clueg.png" width=80% /></th>
+  <th><img src="picture/wikip.png" width=80% 
+		onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th>
+  <th><img src="picture/oxid_phos.png" width=80% 
+  	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th>
+  <th><img src="picture/clueg.png" width=80% 
+  	onmouseover="bigImg(this)" 
+  	onmouseout="normalImg(this)" 
+  	border="0"/></th>
   </tr>
   </table>
   </p>
@@ -61,9 +82,12 @@ div.scrollmenu a:hover {
 
   <p>
   <!--#responsive-image { width: 50%; height: auto; } --> 
-  <img src="gmu1.GIF" alt="GMU" id="responsive-image" width=50% />
+  <img src="picture/gmu1.GIF" alt="GMU" id="responsive-image" width=50% />
   </p>
 </center>
 
-</body>
+<div class="scrollmenu" style="background-color:#F333;text-align: center;text-emphasis-color:#777777">
+<a href="Our_team.html">Mora Lab</a>
+</div>
+	
 </html>
