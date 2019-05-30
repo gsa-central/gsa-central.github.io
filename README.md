@@ -1,4 +1,4 @@
-![MoraLab](/picture/MORALAB_Banner.png)
+![MoraLab](/picture/GSACENTRAL_Banner.png)
 
 # Welcome to GSA Central
 
