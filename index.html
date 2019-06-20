@@ -1,32 +1,47 @@
+<!DOCTYPE html>
 <html>
 
-<TITLE>GSA Central</TITLE>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-div.scrollmenu {
-  background-color: #333;
-  overflow: auto;
-  white-space: nowrap;
-}
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<!--  <meta name="generator" content="Mobirise v4.10.2, mobirise.com"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
+  <link rel="shortcut icon" href="assets/images/moralab-logo-1838x957.png" type="image/x-icon">
+  <meta name="description" content="Bioinformatics, Gene Set Analysis (Pathway Analysis)">
+  
+  <title>GSA Central</title>
+  <link rel="stylesheet" href="assets/tether/tether.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
 
-div.scrollmenu a {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px;
-  text-decoration: none;
-}
+  <style>
+  div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+  }
 
-div.scrollmenu a:hover {
-  background-color: #777;
-}
+  div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
 
-div.padding2side{padding-left: 5%;padding-right: 5%;}
-</style>
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+  </style>
+
 </head>
 
 <body>
+<!-- Google Analytics -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141650531-2"></script>
 <script>
@@ -36,8 +51,9 @@ div.padding2side{padding-left: 5%;padding-right: 5%;}
 
   gtag('config', 'UA-141650531-2');
 </script>
+<!-- /Google Analytics -->
 
-<!--A function that can enlarge picture -->
+<!--A function to enlarge pictures -->
 <script>
 function bigImg(x)
 {
@@ -49,31 +65,43 @@ function normalImg(x)
 	x.style.width="80%";
 }
 </script>
-<center>
-  <p>
-  <!--#responsive-image { width: 80%; height: auto; } --> 
-  <a href="https://gsa-central.github.io/index.html">
-  <img src="picture/GSACENTRAL_Banner.png" alt="GSA Central" id="responsive-image" width=80% />
-  </a>
-  </p>
+<!--A function to enlarge pictures -->
 
-<div class="scrollmenu">
-  <a href="https://gsa-central.github.io/index.html">Home</a>
-  <a href="https://gsa-central.github.io/blog.html">Blog</a>
-  <a href="https://gsa-central.github.io/gsarefdb.html">GSARefDB</a>
-  <a href="https://gsa-central.github.io/slides.html">Educational Material</a>
-  <a href="https://gsa-central.github.io/papers.html">Our Books and papers</a>
-  <a href="https://gsa-central.github.io/about.html">About Us</a>
-</div>
+<!--GSACentral banner-----------------------------------------------------------------------------------------> 
+    <center><a href="index.html"" >
+    <img src="picture/GSACENTRAL_Banner.png" alt="GSA Central" id="responsive-image" style="width:80%; height: auto;max-width:80%;max-height:100%;padding:0 0% 16px 0% ;" />
+    </a></center>
+<!--GSACentral banner-----------------------------------------------------------------------------------------> 
 
-  <H1>Welcome to GSA Central</H1>
-  The right place to either start learning or get an updated view of the Gene Set Analysis field.
+<!--Menu section------------------------------------------------------------------------------------------------------>
+<center><div class="scrollmenu">
+  <a href="index.html">Home</a>
+  <a href="blog.html">Blog</a>
+  <a href="gsarefdb.html">GSARefDB</a>
+  <a href="slides.html">Educational Material</a>
+  <a href="papers.html">Our Books and papers</a>
+  <a href="about.html">About us</a>
+</div></center>
+<!--Menu section------------------------------------------------------------------------------------------------------>
 
-  <p>
-  <table style="width:80%">
+<!--Header section------------------------------------------------------------------------------------------------------>
+<section class="header1 cid-rtBWN3G8vC" id="header16-n">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col-md-10 align-center">
+                <br><br><h1 class="mbr-section-title mbr-bold pb-0 mbr-fonts-style display-2">Welcome to GSA Central</h1>
+                <p class="mbr-text pb-0 mbr-fonts-style display-4">The right place to start learning or get an updated view of the Gene Set Analysis field</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Header section------------------------------------------------------------------------------------------------------>
+
+<!--Slideshow section------------------------------------------------------------------------------------------------------>
+  <center><table style="width:80%">
   <tr>
   <th><img src="picture/wikip.png" width=80% 
-		onmouseover="bigImg(this)" 
+	onmouseover="bigImg(this)" 
   	onmouseout="normalImg(this)" 
   	border="0"/></th>
   <th><img src="picture/oxid_phos.png" width=80% 
@@ -85,25 +113,54 @@ function normalImg(x)
   	onmouseout="normalImg(this)" 
   	border="0"/></th>
   </tr>
-  </table>
-  
-  <div style="text-align: left; padding-left: 25%;">
-  	
-  * Check our <a href="gsarefdb.html">GSA Reference DB</a>, with references to all reviews, papers and methods written in the field.<br><br>
+  </table></center>
+<!--Slideshow section------------------------------------------------------------------------------------------------------>
 
-  * Check our <a href="slides.html">educational material</a>: slides, videos, and programming tutorials.<br><br>
+<!--Cards section------------------------------------------------------------------------------------------------------>
+<section class="features3 cid-rsuLnBIGyG" id="features3-4">
+    <div class="container">
+        <div class="media-container-row">
+            <div class="card p-3 col-12 col-md-6">
+                <div class="card-wrapper">
+                    <div class="card-box">
+                      <p class="mbr-text mbr-fonts-style display-7">
+						* Check our <a href="gsarefdb.html">GSA Reference DB</a>, with references to all reviews, papers and methods written in the field.<br><br>
+						* Check our <a href="slides.html">educational material</a>: slides, videos, and programming tutorials.<br><br>
+						* Check our <a href="papers.html">introductory papers</a>.
+                      </p>
+                  </div>
+                </div>
+            </div>
+        </div>
+		<center><br><H2>We are still building this site! Come back soon!</H2></center>
+    </div>
+</section>
+<!--Cards section------------------------------------------------------------------------------------------------------>
 
-  * Check our <a href="papers.html">introductory papers</a>.<br><br>
-  	</div>
-  <H2 align="center">We are still building this site! Come back soon!</H2>
+<!--Footer section------------------------------------------------------------------------------------------------------>
+<section once="footers" class="cid-rsvh6xzZZq" id="footer6-e">
+    <div class="container">
+        <div class="media-container-row align-center mbr-white">
+            <div class="col-12">
+                <p class="mbr-text mb-0 mbr-fonts-style display-7">
+                  <img src="assets/images/CreativeCommons.jpg" id="responsive-image" style="width:2%; height:auto;" />
+                  GSA Central, 2019<br><br>
+				  Last updated: Jun 20, 2019
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Footer section------------------------------------------------------------------------------------------------------>
 
-  <!--#responsive-image { width: 50%; height: auto; } --> 
-  <img src="picture/gmu1.GIF" alt="GMU" id="responsive-image" width=50% />
-  </p>
-</center>
+  <script src="assets/web/assets/jquery/jquery.min.js"></script>
+  <script src="assets/popper/popper.min.js"></script>
+  <script src="assets/tether/tether.min.js"></script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/smoothscroll/smooth-scroll.js"></script>
+  <script src="assets/dropdown/js/script.min.js"></script>
+  <script src="assets/touchswipe/jquery.touch-swipe.min.js"></script>
+  <script src="assets/theme/js/script.js"></script>
 
-<!--<div class="scrollmenu" style="background-color:#F333;text-align: center;text-emphasis-color:#777777">
-<a href="Our_team.html">Mora Lab</a>
-</div>-->
-	
+</body>
 </html>
