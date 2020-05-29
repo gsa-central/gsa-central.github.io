@@ -15,7 +15,7 @@ if(length(newPackages)) BiocManager::install(newPackages, ask = TRUE)
 #########################################################################################################
 ############### Copy and paste the following code to R to import data into R: ###########################
 #########################################################################################################
-### The .RData file lies in: https://www.jianguoyun.com/p/DepNU-oQhJ6TBxipxZ0D
+### The .RData file lies in: https://drive.google.com/open?id=1ZJ1YmCAsXnlfpbVYSqKjlM4XGbNGKH7T
 ### Before run the shiny, please download and load the .RData into R.
 load（"importdata.RData")
 
