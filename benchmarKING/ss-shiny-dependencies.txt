@@ -1,0 +1,21 @@
+#########################################################################################################
+######### Copy and paste the following code to R in order to install all required dependencies: #########
+#########################################################################################################
+if (!requireNamespace("BiocManager", quietly = TRUE))
+	install.packages("BiocManager", dependencies = TRUE)
+	
+requiredPackages <- c("GEOquery", "tidyverse", "GRAPE", "GSVAdata", "GSEABase","GSVA", "limma", 
+                      "metap", "ggplot2", "shinythemes", "shiny", "R.utils", "DT", "ggpubr", 
+					  "reshape2", "stringr", "KEGGdzPathwaysGEO", "KEGGandMetacoreDzPathwaysGEO")			  
+newPackages <- requiredPackages[!(requiredPackages %in% installed.packages()[,"Package"])]
+if(length(newPackages)) BiocManager::install(newPackages, ask = TRUE)
+
+
+#########################################################################################################
+############### Copy and paste the following code to R to import data into R: ###########################
+#########################################################################################################
+### The .RData file lies in: https://www.jianguoyun.com/p/DepNU-oQhJ6TBxipxZ0D
+### Before run the shiny, please download and load the .RData into R.
+load（"importdata.RData")
+
+
