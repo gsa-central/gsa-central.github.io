@@ -10,13 +10,3 @@ requiredPackages <- c("GEOquery", "tidyverse", "GRAPE", "GSVAdata", "GSEABase","
 		      "KEGGdzPathwaysGEO", "KEGGandMetacoreDzPathwaysGEO")			  
 newPackages <- requiredPackages[!(requiredPackages %in% installed.packages()[,"Package"])]
 if(length(newPackages)) BiocManager::install(newPackages, ask = TRUE)
-
-
-#########################################################################################################
-#### Copy and paste the following code to R to get example data of Tara's paper into R: #################
-#########################################################################################################
-### Before run the shiny, please download/copy and then run the R codes.
-source("https://github.com/mora-lab/ss-shiny/tree/master/R/get_Tarca_data.R")
-
-
-
