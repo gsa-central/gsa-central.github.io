@@ -15,7 +15,7 @@ if(length(newPackages)) BiocManager::install(newPackages, ask = TRUE)
 #########################################################################################################
 ##### Copy and paste the following code to R to get example data of Tara's paper into R: #################
 #########################################################################################################
-### The R code file, named "get Tarcadata", lies in:https://github.com/mora-lab/ss-shiny/tree/master/R
+### The R code file, named "get Tarcadata.R", lies in:https://github.com/mora-lab/ss-shiny/tree/master/R
 ### Before run the shiny, please download/copy and then run the R codes.
 source("~/get Tarcadata.R")   ### if downloaded, don't forget to change the file location.
 
