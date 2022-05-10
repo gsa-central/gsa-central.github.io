@@ -18,7 +18,7 @@ Our resources to learn Gene Set Analysis.
 
 **GSA6:** : Functional-class scoring [Download here](https://github.com/gsa-central/animations/tree/main/GSAMAT2020/GSA6.mp4)
 
-**GSA7:** : Gene set analysis software tools [Download here](https://github.com/gsa-central/animations/tree/main/GSAMAT2020/GSA7.mp4)
+**GSA7:** : Gene set analysis software tools [Download here](https://github.com/gsa-central/gsa-central.github.io/blob/main/education/GSA7_2.mp4)
 
 **GSA8:** : Acknowledgements [Download here](https://github.com/gsa-central/animations/tree/main/GSAMAT2020/GSA8.mp4)
 
