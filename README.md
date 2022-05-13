@@ -14,6 +14,4 @@ Check our GSA Reference DB, with references to all reviews, papers and methods w
 
 Check our GSA BenchmarKING, a site for benchmarking different GSA methods.
 
-We are still building this site! Come back soon!
-
 ![GMU](/picture/gmu1.GIF)
